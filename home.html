@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script type = "text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type = "text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+<title>My jQuery Mobile Page</title>
+</script>
+</head>
+<body>
+<div data-role="tabs" id="tabs">
+    <div data-role="header"  data-theme="b">
+        <h1>Basic Navbar</h1>
+    </div>
+    <div id="home" class="ui-body ui-content">
+            This is Home Page.
+    </div>
+    <div id="about" class="ui-body ui-content">
+            This is About Page.
+    </div>
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about" data-icon="info">About</a></li>
+            </ul>
+        </div>
+    </div>    
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>
