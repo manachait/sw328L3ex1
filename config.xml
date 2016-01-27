@@ -16,12 +16,11 @@
     <preference name="android-minSdkVersion" value="7" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="SplashScreen" value="screen" />
-	<preference name="SplashScreenDelay" value="4000" />	
-	
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/drawable-ldpi-portrait/screen.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/drawable-mdpi-portrait/screen.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/drawable-hdpi-portrait/screen.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/drawable-xhdpi-portrait/screen.png" />	
+	<preference name="SplashScreenDelay" value="4000" />		
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/drawable-ldpi-portrait/screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/drawable-mdpi-portrait/screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/drawable-hdpi-portrait/screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/drawable-xhdpi-portrait/screennew.png" />	
 <!--    <splash src="res/screen/drawable-ldpi-portrait/screen.png" platform="android" density="port-ldpi" />
     <splash src="res/screen/drawable-mdpi-portrait/screen.png" platform="android" density="port-mdpi" />
     <splash src="res/screen/drawable-hdpi-portrait/screen.png" platform="android" density="port-hdpi" />
