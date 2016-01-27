@@ -9,17 +9,17 @@
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="5.2.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="7" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="SplashScreen" value="screen" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />	
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/android/splash-ldpi.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/splash-mdpi.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/splash-hdpi.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screen/android/splash-xhdpi.png" />	
     <preference name="SplashScreenDelay" value="10000" />	
     <gap:splash src="splash.png" />	
 </widget>
